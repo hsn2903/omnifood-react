@@ -6,12 +6,14 @@
 
 - Font Weigths
 default: 400
+medium: 500
+semi-bold: 600
+bold: 700
 
 - Line heights
 default: 1
-
-SPACING SYSTEM (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+small: 1.05
+paragraph default: 1.6
 
 
 --- COLORS
@@ -28,6 +30,7 @@ SPACING SYSTEM (px)
 
 
 --- BORDER RADIUS
+default: 9px
 
 
 --- WHITE SPACES
@@ -53,4 +56,61 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+/* ********************* */
+/* GENERAL REUSABLE COMPONENTS */
+/* ********************* */
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5rem;
+  margin-bottom: 3.2rem;
+}
+
+/* BUTTONS */
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1rem 3.2rem;
+  border-radius: 150px;
+  font-weight: 600;
+
+  /* Put transition on original "state - element" */
+  transition: background-color 1s;
+}
+
+.btn__full:link,
+.btn__full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn__outline:link,
+.btn__outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn__full:hover,
+.btn__full:active {
+  background-color: #cf711f;
+  color: #555;
+}
+
+.btn__outline:hover,
+.btn__outline:active {
+  background-color: #fdf2e9;
+
+  /* trick to add border inside */
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+/* MARGIN & PADDING */
+.margin-right-sm {
+  margin-right: 1.6rem !important;
 }
