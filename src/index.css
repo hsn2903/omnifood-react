@@ -16,11 +16,12 @@ SPACING SYSTEM (px)
 
 --- COLORS
 - Primary: #e67e22
-- Tints:
-- Shades:
+- Tints:#fdf2e9
+- Shades: #cf711f
 - Accents: 
 - Greys: 
 #555
+#333
 
 
 --- SHADOWS
@@ -42,8 +43,13 @@ Spacing System (px)
   box-sizing: border-box;
 }
 
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%; /* 10px */
+}
+
 body {
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
