@@ -4,5 +4,18 @@ import How from "./home/How";
 import FeaturedIn from "./home/FeaturedIn";
 import Meals from "./home/Meals";
 import Testimonial from "./home/Testimonial";
+import Pricing from "./home/Pricing";
+import Features from "./home/Features";
+import Footer from "./Footer";
 
-export { Navbar, Hero, How, FeaturedIn, Meals, Testimonial };
+export {
+  Navbar,
+  Hero,
+  How,
+  FeaturedIn,
+  Meals,
+  Testimonial,
+  Pricing,
+  Features,
+  Footer,
+};
