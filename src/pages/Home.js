@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  CallToAction,
   FeaturedIn,
   Hero,
   How,
@@ -17,6 +18,7 @@ const Home = () => {
       <Meals />
       <Testimonial />
       <Pricing />
+      <CallToAction />
     </div>
   );
 };

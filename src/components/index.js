@@ -6,6 +6,7 @@ import Meals from "./home/Meals";
 import Testimonial from "./home/Testimonial";
 import Pricing from "./home/Pricing";
 import Features from "./home/Features";
+import CallToAction from "./home/CallToAction";
 import Footer from "./Footer";
 
 export {
@@ -17,5 +18,6 @@ export {
   Testimonial,
   Pricing,
   Features,
+  CallToAction,
   Footer,
 };
