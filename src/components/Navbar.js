@@ -1,9 +1,10 @@
 import "./Navbar.css";
 import logo from "./../assets/img/omnifood-logo.png";
+import { IoMenuOutline, IoCloseOutline } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <header className="header">
+    <header className="header nav-open">
       <a href="#">
         <img src={logo} alt="Omnifood logo" className="logo" />
       </a>
@@ -36,6 +37,11 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
+
+      <button className="btn-mobile-nav">
+        <IoMenuOutline className="icon-mobile-nav" name="menu-outline" />
+        <IoCloseOutline className="icon-mobile-nav" name="close-outline" />
+      </button>
     </header>
   );
 };
