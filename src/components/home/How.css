@@ -63,3 +63,12 @@
 .step-img {
   width: 35%;
 }
+
+/* ************************ */
+/* Below 944px (Tabltes) */
+/* ************************ */
+@media (max-width: 59em) {
+  .step-number {
+    font-size: 7.4rem;
+  }
+}
