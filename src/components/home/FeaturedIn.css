@@ -22,3 +22,12 @@
   filter: brightness(0);
   opacity: 50%;
 }
+
+/* ************************ */
+/* Below 944px (Tabltes) */
+/* ************************ */
+@media (max-width: 59em) {
+  .logos img {
+    height: 2.4rem;
+  }
+}
