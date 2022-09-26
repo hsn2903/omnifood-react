@@ -54,3 +54,34 @@
 .galerry-item img:hover {
   transform: scale(1.1);
 }
+
+/* ************************ */
+/* Below 1344px (Smaller desktops) */
+/* ************************ */
+@media (max-width: 84em) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ************************ */
+/* Below 1200px (Landscape Tabltes) */
+/* ************************ */
+@media (max-width: 75em) {
+  .testimonials-container {
+    padding: 9.6rem 3.2rem;
+  }
+}
+
+/* ************************ */
+/* Below 944px (Tabltes) */
+/* ************************ */
+@media (max-width: 59em) {
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
