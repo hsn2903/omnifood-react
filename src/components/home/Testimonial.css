@@ -85,3 +85,17 @@
     grid-template-columns: repeat(6, 1fr);
   }
 }
+
+/* ************************ */
+/* Below 704px (Smaller Tabltes) */
+/* ************************ */
+@media (max-width: 44em) {
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+  }
+}

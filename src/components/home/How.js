@@ -5,7 +5,7 @@ import appImg3 from "../../assets/img/app/app-screen-3.png";
 
 const How = () => {
   return (
-    <section className="section-how">
+    <section className="section-how" id="how">
       <div className="container">
         <span className="subheading">How it works</span>
         <h2 className="heading-secondary">

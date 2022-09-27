@@ -64,6 +64,8 @@ html {
   /* font-size: 10px; */
   font-size: 62.5%; /* 10px */
   overflow-x: hidden;
+
+  scroll-behavior: smooth;
 }
 
 body {
@@ -329,5 +331,40 @@ strong {
 
   .hero {
     grid-template-columns: 1fr;
+  }
+}
+
+/* ************************ */
+/* Below 704px (Smaller Tabltes) */
+/* ************************ */
+@media (max-width: 44em) {
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ************************ */
+/* Below 544px (Phones) */
+/* ************************ */
+@media (max-width: 34em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.6rem;
   }
 }

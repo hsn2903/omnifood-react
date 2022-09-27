@@ -20,10 +20,10 @@ const Hero = () => {
             healthy again. Tailored to your personal tastes and nutritional
             needs.
           </p>
-          <a className="btn btn__full margin-right-sm" href="#">
+          <a className="btn btn__full margin-right-sm" href="#cta">
             Start eating well
           </a>
-          <a className="btn btn__outline" href="#">
+          <a className="btn btn__outline" href="#how">
             Learn more &darr;
           </a>
 

@@ -31,3 +31,12 @@
     height: 2.4rem;
   }
 }
+
+/* ************************ */
+/* Below 704px (Smaller Tabltes) */
+/* ************************ */
+@media (max-width: 44em) {
+  .logos img {
+    height: 1.2rem;
+  }
+}

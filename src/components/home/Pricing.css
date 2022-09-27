@@ -89,3 +89,12 @@
   font-size: 1.8rem;
   line-height: 1.8;
 }
+
+/* ************************ */
+/* Below 704px (Smaller Tabltes) */
+/* ************************ */
+@media (max-width: 44em) {
+  .pricing-plan {
+    width: 100%;
+  }
+}

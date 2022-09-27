@@ -3,7 +3,7 @@ import eatingImage from "../../assets/img/eating.jpg";
 
 const CallToAction = () => {
   return (
-    <section className="section-cta">
+    <section id="cta" className="section-cta">
       <div className="container">
         <div className="cta">
           <div className="cta-text-box">
